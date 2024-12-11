@@ -23,4 +23,4 @@ Aquest projecte posa en evidència els reptes de treballar amb dades desbalancej
   - [create_CLIP_embeddings.ipynb](clean_notebooks/create_CLIP_embeddings.ipynb): S'ha de correr aquest script primer per a generar els _embeddings_.
   - [first_approach_BoVW.ipynb](clean_notebooks/first_approach_BoVW.ipynb): Aquest fitxer inclou el codi per a realitzar les features del _BagOfVisualWords_. 
   - [model_notebook.ipynb](clean_notebooks/model_notebook.ipynb): Aquesta és la notebook principal, on s'an d'incloure els fitxers generats amb les notebooks anteriors i el dataset, tal com està inclòs dins la notebook.
-  - Nota: No estan totes les versions i iteracions que s'han mencionat a l'informe, si no només la majoria de versions finals.
+  - **NOTA**: No estan totes les versions i iteracions que s'han mencionat a l'informe, si no només la majoria de versions finals.
