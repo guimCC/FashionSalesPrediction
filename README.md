@@ -14,3 +14,13 @@ Les estratègies implementades inclouen:
 Els resultats mostren que, tot i certs avenços, les tècniques tradicionals tenen limitacions importants per capturar la complexitat de les dades multimodals. Això destaca la necessitat d'explorar enfocaments més avançats, com l'ús de xarxes neuronals i arquitectures basades en transformers, especialment per a integrar millor les dades visuals amb altres característiques.
 
 Aquest projecte posa en evidència els reptes de treballar amb dades desbalancejades i multimodals en la predicció de tendències de vendes. Alhora, proporciona una base sòlida per a futures investigacions en aquest camp, amb la idea de millorar la precisió i l'eficàcia dels models predictius per a la indústria de la moda.
+
+### Estructura del Repositori i d'execució
+- Dataset:
+  - Descarregar i extreure el **Dataset** a partir del següent enllaç: [VISUELLE](https://paperswithcode.com/dataset/visuelle)
+  - **NOTA**: a les notebooks següents s'ha de canviar la variable _path_ per el lloc d'extracció del dataset. S'indica als fitxers.
+- Notebooks:
+  - [create_CLIP_embeddings.ipynb](clean_notebooks/create_CLIP_embeddings.ipynb): S'ha de correr aquest script primer per a generar els _embeddings_.
+  - [first_approach_BoVW.ipynb](clean_notebooks/first_approach_BoVW.ipynb): Aquest fitxer inclou el codi per a realitzar les features del _BagOfVisualWords_. 
+  - [model_notebook.ipynb](clean_notebooks/model_notebook.ipynb): Aquesta és la notebook principal, on s'an d'incloure els fitxers generats amb les notebooks anteriors i el dataset, tal com està inclòs dins la notebook.
+  - Nota: No estan totes les versions i iteracions que s'han mencionat a l'informe, si no només la majoria de versions finals.
